@@ -1,0 +1,79 @@
+//font
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
+
+/* weights
+    400 -> regular
+    500 -> medium
+    700 -> bold
+    900 -> black
+*/
+
+@import './pages/LandingPage/landingpage.scss';
+@import './pages/Register/register.scss';
+@import './pages/LogIn/login.scss';
+@import './pages/NewPlaylist/newplaylist.scss';
+@import './pages/AddSongs/addsongs.scss';
+@import './pages/Profile/profile.scss';
+@import './pages/Home/home.scss';
+@import './pages/SearchPlaylist/searchplaylist.scss';
+@import './pages/ViewPlaylist/viewplaylist.scss';
+
+.App {
+    margin: 0 auto;
+    width: 100vw;
+    height:auto;
+    font-family: 'Inter', sans-serif;
+    color: #f5f5f5; //off-white
+}
+
+
+.pagesIndex {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.pagesIndex a {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-top:none;
+}
+
+h3 {
+    font-size: 1.17em;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 1.12em;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 0.83em;
+    font-weight: 400;
+}
+
+h6 {
+    font-size: 0.75em;
+    font-weight: 400;
+}
+
+p {
+    font-size: 1em;
+    font-weight: 400;
+}

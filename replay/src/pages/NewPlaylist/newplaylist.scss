@@ -1,0 +1,75 @@
+.np-container {
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.cpCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input {
+    min-height: 51px;
+    min-width: 275px;
+    padding: 16px;
+    opacity: 0.75;
+    margin: 10px 0 25px 0;
+}
+
+.btnCont {
+    display: flex;
+    justify-content: space-between;
+    min-width: 275px;
+}
+
+.cancel {
+    min-height: 38px;
+    min-width: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #F06449;
+    box-sizing: border-box;
+    border-radius: 7px;
+    background-color: #050505;
+    color: #F06449;
+    transition: 500ms ease-in-out;
+}
+
+.cancel:hover {
+    cursor: pointer;
+    border: 1px solid #F5F5F5;
+    background-color: #050505;
+    color: #F5F5F5;
+    transition: 500ms ease-in-out;
+}
+
+.create {
+    min-height: 38px;
+    min-width: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #F06449;
+    box-sizing: border-box;
+    border-radius: 7px;
+    background-color: #F06449;
+    color: #F5F5F5;
+    transition: 500ms ease-in-out;
+}
+
+.create:hover {
+    cursor: pointer;
+    border: 1px solid #F5F5F5;
+    background-color: #050505;
+    color: #F5F5F5;
+    transition: 500ms ease-in-out;   
+}
